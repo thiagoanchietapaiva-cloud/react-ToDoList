@@ -120,8 +120,8 @@ export default function Tarefas({ mudarTela }) {
                                 <h3 className="font-bold text-purple-900 breakwords">{t.titulo}</h3>
                                 <p className="text-sm text-gray-600 mt-1 break-all">{t.descricao || 'Sem descrição'}</p>
                                 <div className="flex gap-2 mt-3">
-                                    <button onClick={() => abrirFormEditar(idReal)} className="text-xl px-3 py-1 bg-purple-100 rounded hover:bg-purple-700"><FaEdit /></button>
-                                    <button onClick={() => excluirTarefa(idReal)} className="text-xl px-3 py-1 bg-purple-100 rounded hover:bg-red-500"><FaTrashAlt /></button>
+                                 <button onClick={() => abrirFormEditar(idReal)} className="text-xl px-3 py-1 hover:text-purple-700 "><FaEdit /></button>
+                                 <button onClick={() => excluirTarefa(idReal)} className="text-xl px-3 py-1 hover:text-red-500"><FaTrashAlt /></button>
                                 </div>
                             </div>
                         )
