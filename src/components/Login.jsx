@@ -24,7 +24,7 @@ export default function Login({ mudarTela }) {
   }
   return (
     <div className="bg-slate-200 h-screen flex justify-center items-center">
-      <div className="bg-white p-8 rounded-lg">
+      <div className="bg-white p-8 rounded">
         <h1 className="text-3xl text-purple-900 font-bold mb-6">Seja bem-vindo à sua Lista de Tarefas!</h1>
         <form onSubmit={logar}>
           <label className="block text-sm font-semibold text-gray-700 mb-2">Digite seu e-mail:</label>

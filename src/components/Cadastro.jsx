@@ -24,7 +24,7 @@ export default function Cadastro({ mudarTela }) {
   }
   return (
     <div className="bg-slate-200 h-screen flex justify-center items-center">
-      <div className="bg-white p-8 rounded-lg w-96">
+      <div className="bg-white p-8 rounded w-96">
         <button onClick={() => mudarTela('login')} className="my-5 text-purple-600 hover:underline">Voltar</button>
         <h1 className="text-3xl text-purple-900 font-bold mb-6">Cadastro</h1>
         <form onSubmit={cadastrar} className="flex flex-col">
